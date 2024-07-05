@@ -1,0 +1,12 @@
+.container{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    background-color: rgba(151, 140, 140, 0.17);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}

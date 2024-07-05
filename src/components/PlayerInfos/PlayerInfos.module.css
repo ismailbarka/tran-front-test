@@ -1,0 +1,90 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.simpleInfos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    width: 100%;
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    
+}
+.buttonContainer{ 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+.name{
+    font-size: 24px;
+}
+
+.resContainerWin{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    background-color: #00acb53b;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 75px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.resContainerLose{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+    background-color: #393e463f;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 75px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.moreinfos{
+   margin: 15px;
+   display: flex;
+   justify-content: space-between;
+   margin-left: 5%;
+   margin-right: 5%;
+   align-items: center;
+   justify-content: center;
+}
+.leftSide{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.rightSide{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.info{
+    color: #00ADB5;
+}
+
+@media (min-width: 1000px){
+    .container{
+        max-height: calc(100vh - 50px);
+        overflow: auto;
+    }
+    .container::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.title{
+    text-align: center;
+}

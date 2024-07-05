@@ -1,0 +1,46 @@
+.bodyStyle{
+    max-width: 100vw;
+    overflow-x: hidden;
+    background-color: #111;
+    color: #bbb;
+}
+.a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    display: flex;
+    flex-direction: center;
+    gap: 100px;
+}
+.item{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.img{
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+    animation: move 3s infinite ease alternate;
+}
+
+@keyframes move{
+    form{
+        transform: translateY(-15px);
+    }
+    to{
+        transform: translateY(15px);
+    }
+}
+
+.title {
+    font-size: 72px;
+    background: linear-gradient(to bottom, #194c33, #bbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+

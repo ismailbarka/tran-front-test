@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: calc(100vw - 45px);
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.122);
+}
+
+
+@media (max-width: 768px){
+
+    .title{
+        display: none;
+    }
+    .container{
+        justify-content: center;
+    }
+    .container{
+        width: 100vw; 
+    }
+}

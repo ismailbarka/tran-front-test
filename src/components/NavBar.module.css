@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    cursor: pointer;
+    
+}
+.ButtonSelected{
+    background-color: #00ADB5;
+    border: none;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ButtonNotSelected{
+    background-color: transparent;
+    border: none;
+}

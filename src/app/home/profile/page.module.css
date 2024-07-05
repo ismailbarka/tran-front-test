@@ -1,0 +1,34 @@
+.InfosContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: rgb(119, 80, 33); */
+    color: black;
+    gap: 50px;
+}
+
+.playerInfos{
+    /* background-color: rgb(8, 78, 54); */
+    width: 100%;
+}
+.rank{
+    width: 100%;
+
+}
+
+
+.space{
+    display: none;
+}
+@media (max-width: 768px){
+    .space{
+        display:block;
+        height: 65px;
+    }
+}
+@media (max-width: 1000px){
+    .InfosContainer{
+        flex-direction: column;
+    }
+}

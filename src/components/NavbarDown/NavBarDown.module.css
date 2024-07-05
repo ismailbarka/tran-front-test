@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    background-color: #222831;
+    box-shadow: rgba(0, 0, 0, 9.35) 0px 5px 15px;
+
+}
+
+.ButtonSelected {
+    background-color: #00ADB5;
+    border: none;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; /* Add padding to increase the clickable area */
+}
+
+.ButtonNotSelected {
+    background-color: transparent;
+    border: none;
+    padding: 10px; /* Add padding to increase the clickable area */
+}
+
+
+@media (min-width: 768px){
+    .container {
+        display: none;
+    }
+}

@@ -1,0 +1,180 @@
+.parent{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100vw;
+    background-color: #f0f2f5;
+    color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.intro{
+    font-size: 28px;
+}
+
+.tst{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 48px;
+    color: #00ADB5;
+}
+.titleContainer{
+    width: 400px;
+}
+.loginContainer{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+.loginAndTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.loginTitle{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.inputField{
+    height: 50px;
+    width: 90%;
+    margin: 10px;
+    padding: 20px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 0.25px solid rgba(130, 130, 130, 0.375);
+    box-shadow: rgba(0, 0, 0, 0.098) 0px 1px 1px 0px inset;
+
+}
+
+.inputField:hover{
+    background-color: #00acb506;
+}
+.inputField:focus{
+    background-color: #00acb519;
+}
+
+.loginBody{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footerText{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+.button{
+    height: 50px;
+    width: 90%;
+    margin: 10px;
+    padding: 20px;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: #00ADB5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover{
+    height: 50px;
+    width: 90%;
+    margin: 10px;
+    padding: 20px;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: hsl(183, 100%, 16%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.LoginWith{
+    height: 50px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 900px){
+    .loginAndTitle{
+        flex-direction: column;
+    }
+    .title{
+        text-align: center;
+    }
+    .intro{
+        text-align: center;
+    }
+}
+.buttonCircle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #00ADB5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.buttonCircle:hover{
+    background-color: hsl(183, 100%, 16%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.signin{
+    height: 50px;
+}
+
+.link{
+    color: #00ADB5;
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+.link:hover{
+    color: #003f42;
+    font-size: 17px;
+    text-decoration: underline;
+}
+.error{
+    color: red;
+    margin-left: 15px;
+}

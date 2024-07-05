@@ -1,0 +1,21 @@
+.container{
+  width: 35px;
+  height: 35px;
+  border: none;
+  background-color: transparent;
+  margin: 5px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #005c61;
+}
+
+
+
+.img{
+  width: 25px;
+  height: 25px;
+  padding: 2.5px;
+}

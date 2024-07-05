@@ -1,0 +1,13 @@
+.InfosContainer{
+    display: flex;
+    gap: 100px;
+}
+
+.playerInfos{
+    flex: 1;
+    background-color: rgba(127, 255, 212, 0.172);
+}
+.rank{
+    flex: 2;
+    background-color: rgb(255, 193, 127);
+}
