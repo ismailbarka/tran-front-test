@@ -1,0 +1,19 @@
+- python3 -m venv <envname>
+- source <envname>/bin/activate
+- pip install -r /path/to/requirements.txt
+
+
+- create superuser:
+python manage.py createsuperuser
+
+
+- migrate database
+
+python manage.py migrate
+
+
+- runserver
+
+python manage.py runserver port
+
+
